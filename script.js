@@ -1,4 +1,5 @@
-const API_URL = "https://api.edamam.com/api/recipes/v2?type=public&q=";
+const API_URL =
+  "https://api.api-ninjas.com/v1/recipe?query=italian wedding soup";
 
 document.getElementById("search-button").addEventListener("click", async () => {
   const query = document.getElementById("search-input").value;
